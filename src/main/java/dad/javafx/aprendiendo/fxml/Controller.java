@@ -44,17 +44,14 @@ public class Controller implements Initializable {
 	}
 	
 	@FXML
-	private void click(ActionEvent e) {
-
+	private void onClick(ActionEvent e) {
 		Alert alert = new Alert(AlertType.INFORMATION);
-		alert.setTitle("Aprendiendo FXML");
-		
+		alert.setTitle("Aprendiendo FXML");		
 		if ("Saludar".equals(accion.get())) {
-			alert.setContentText("Hola!");
+			alert.setContentText("¡Hola!");
 		} else {
-			alert.setContentText("Adiós!");
+			alert.setContentText("¡Adiós!");
 		}
-		
 		alert.showAndWait();
 	}
 	

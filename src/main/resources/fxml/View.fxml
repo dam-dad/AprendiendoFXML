@@ -4,9 +4,9 @@
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox fx:id="view" alignment="CENTER" prefHeight="480.0" prefWidth="640.0" spacing="5.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<VBox fx:id="view" alignment="CENTER" prefHeight="200.0" prefWidth="320.0" spacing="5.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <ComboBox fx:id="accionCombo" prefWidth="150.0" />
-      <Button mnemonicParsing="false" onAction="#click" text="Púlsame" />
+      <Button mnemonicParsing="false" onAction="#onClick" text="Púlsame" />
    </children>
 </VBox>

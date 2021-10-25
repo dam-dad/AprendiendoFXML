@@ -7,6 +7,6 @@
 <VBox fx:id="view" alignment="CENTER" prefHeight="200.0" prefWidth="320.0" spacing="5.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <ComboBox fx:id="accionCombo" prefWidth="150.0" />
-      <Button mnemonicParsing="false" onAction="#onClick" text="Púlsame" />
+      <Button mnemonicParsing="false" defaultButton="true" onAction="#onClick" text="Púlsame" />
    </children>
 </VBox>

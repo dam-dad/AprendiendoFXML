@@ -1,2 +1,4 @@
 # AprendiendoFXML
- Ejemplo de uso de FXML
+Primer ejemplo de uso de FXML.
+
+![Aprendiendo FXML](docs/screenshot.png)

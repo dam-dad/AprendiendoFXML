@@ -39,6 +39,8 @@ public class Controller implements Initializable {
 	public void initialize(URL location, ResourceBundle resources) {
 		
 		accionCombo.getItems().addAll("Saludar", "Despedir");
+		accionCombo.getSelectionModel().selectFirst();
+
 		accion.bind(accionCombo.getSelectionModel().selectedItemProperty());
 		
 	}
